@@ -1,0 +1,23 @@
+{
+    "body":"rtl",
+    "home":"home",
+    "about":"About us",
+    "services":"Our Services",
+    "testi":"Testimonails",
+    "contact":"Contact Us ",
+    "lang":"An",
+    "heroTitle":"We help take your brand to the next level",
+    "heroP":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis pulvinar dapibus leo.",
+    "heroBtn":"Order Now",
+    "aboutTilte":"Markiting Agency",
+    "aboutP":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam consectetur fuga dignissimos quaerat in tempore impedit corporis molestias facilis nulla. Eos, doloribus qui commodi fuga nulla doloremque eligendi exercitationem deleniti?",
+    "expriance":"Years Expriance",
+    "project":"Project",
+    "client":"Clien",
+    "serviceTile1":"Social Media Management",
+    "serviceDes1":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi iusto facilis itaque.",
+    "serviceTile2":"Social Media Management",
+    "serviceDes2":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi iusto facilis itaque.",
+    "serviceTile3":"Social Media Management",
+    "serviceDes3":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi iusto facilis itaque."
+}

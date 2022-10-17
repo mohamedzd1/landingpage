@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link href="./dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <title>Bridge Ads</title>
+  
+</head>
+<body   id="home" class=" bg-white dark:bg-slate-800 dark:text-white" >
+   <header class="sticky top-4  bg-card dark:bg-slate-700 z-20 m-4 rounded-2xl shadow-[0_0_7px_-3px] shadow-blue-800/60 dark:shadow-slate-100  ">
+      <div class=" container w-[calc(70%+30px)] h-[90px] flex items-center justify-between  ">
+      <div class="w-16 max-w-16" >
+         <img src="./images/bridgelogo.png" alt="">
+      </div>
+      <nav class="">
+         <ul>
+            <li class="active"><a href="#home" data-lang="home">Home</a></li>
+            <li ><a href="#about" data-lang="about">About Us</a> </li>
+            <li ><a href="#sevices" data-lang="services">Our Services</a> </li>
+            <li ><a href="#testi" data-lang="testi">Testimonials</a> </li>
+            <li ><a href="#contact" data-lang="contact">Contact</a> </li>
+         </ul>
+      </nav>
+      <div class="icons text-base">
+         <ul class="flex items-center justify-between  gap-4 rtl:flex">
+            <li class="icon-div" id="darkMode" ><i class="uil uil-moon"></i></li>
+            <li class="icon-div" id="lang" data-lang="lang">Ar</li>
+            <li class="bars-icon"><i class="uil uil-bars"></i></li>
+         </ul>
+      </div>
+   </div>
+   </header>
+   <section class=" relative   h-[calc(100vh-120px)] md:h-[400px]  ">
+      
+         <div class="w-[300px] ltr:ml-[204px] rtl:mr-[204px] absolute top-[50%] -translate-y-[70%] ltr:md:ml-[70px]  rtl:md:mr-[70px] md:-translate-y-[50%]" >
+            <h1 data-lang="heroTitle" class="text-4xl font-bold text-blue-900 dark:text-blue-700 md:text-xl">We help take your brand to the next level</h1>
+            <p data-lang="heroP" class="my-4 text-slate-800/60 dark:text-slate-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis pulvinar dapibus leo.</p>
+            <button data-lang="heroBtn" class="btn "><a href="#">Order Now</a></button>
+         </div>
+         <div class="md:hidden absolute w-[550px] h-[300px] ltr:right-0 rtl:left-0  top-[50%] -translate-y-[70%] rounded-l-lg overflow-hidden">
+               <div class="relative w-[100%] h-[100%]   ">
+                  <img src="./images/hero.jpg" class="absolute w-[100%] h-[100%] grayscale" alt="">
+               
+               <div class="absolute w-[100%] h-[100%] bg-blue-800/30 z-10"></div>
+            </div>
+         </div>
+         <div class="absolute  top-[50%] -translate-y-[80%]  ltr:left-6 rtl:right-6 ">
+            <ul class="socialmedia">
+               <li><a href=""><i class="uil uil-facebook"></i></a></li>
+               <li><a href=""><i class="uil uil-instagram-alt"></i></a></li>
+               <li><a href=""><i class="uil uil-whatsapp-alt"></i></a></li>
+            </ul>
+         </div>
+         <div class="absolute left-[50%] animate-bounce -translate-x-[50%] bottom-2 text-2xl text-blue-800 dark:text-blue-700">
+         <a href=""><i class="uil uil-arrow-down"></i></a>
+         </div>
+   </section>
+   <section id="about" class=" bg-card dark:bg-slate-700">
+      <div class="container">
+         <h2 class="special-text" data-lang="about">
+            About Us
+         </h2>
+         <div class="flex items-center justify-between mt-8 md:mt-9">
+            
+            <div class="basis-[40%] md:basis-[100%]">
+              <div>
+               <h3  data-lang="aboutTilte"class="text-xl font-bold text-slate-800 dark:text-slate-500 mb-6 md:mb-3">Markiting Agency</h3>
+               <p data-lang="aboutP" class="text-slate-800/60 dark:text-slate-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam consectetur fuga dignissimos quaerat in tempore impedit corporis molestias facilis nulla. Eos, doloribus qui commodi fuga nulla doloremque eligendi exercitationem deleniti?</p>
+              </div> 
+              <div class="flex items-center justify-between mt-4 w-[100%]">
+                 <div><p class="about-info"><span class="about-info-text">2+</span><span data-lang="expriance">Years Expriance</span></p></div>
+                 <div><p class="about-info "><span class="about-info-text">50</span><span data-lang="project">Projects</span></p></div>
+                 <div><p class="about-info"><span class="about-info-text">30</span><span data-lang="client">Client</span></p></div></div>
+            </div>
+            <div class="w-[50%] md:hidden">
+               <img src="./images/about.svg"   alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="sevices" class="">
+      <div class="container w-[70%]">
+         <h2 class="special-text" data-lang="services">
+            Our Services
+         </h2>
+         <div class="mt-24">
+              <div class="cards">
+               <div class="card">
+                  <div >
+                     <i class="uil uil-edit"></i>
+                  </div>
+                  <h3 data-lang="serviceTile1" >
+                     Social media Mangement
+                  </h3>
+                  <p data-lang="serviceDes1">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi iusto facilis itaque.
+                  </p>
+               </div>
+               <div class="card">
+                  <div >
+                     <i class="uil uil-edit"></i>
+                  </div>
+                  <h3 data-lang="serviceTile2">
+                     Social media Mangement
+                  </h3>
+                  <p data-lang="serviceDes2">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi iusto facilis itaque.
+                  </p>
+               </div>
+               <div class="card">
+                  <div >
+                     <i class="uil uil-edit"></i>
+                  </div>
+                  <h3 data-lang="serviceTile3">
+                     Social media Mangement
+                  </h3>
+                  <p data-lang="serviceDes3">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi iusto facilis itaque.
+                  </p>
+               </div>
+               
+              </div>
+         </div>
+      </div>
+   </section>
+   <section id="testi" class=" ">
+      <div class="container w-[70%]">
+         <h2 class="special-text" data-lang="testi">
+            Testimonails
+         </h2>
+         <div class="content mt-16">
+            <div class="swiper h-fit ">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper " dir="ltr">
+                 <!-- Slides -->
+                 <div class="swiper-slide">
+                  <div class="testi-card" >
+                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores id, odio dicta, magni exercitationem ullam a doloremque, soluta nobis explicabo unde velit omnis! Architecto harum, repellat excepturi amet maxime vitae?</p>
+                    <p>Mohamed zd</p>
+                    <p>CEO MZDX</p>
+                  </div>
+                 </div>
+                 <div class="swiper-slide">
+                  <div class="testi-card">
+                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores id, odio dicta, magni exercitationem ullam a doloremque, soluta nobis explicabo unde velit omnis! Architecto harum, repellat excepturi amet maxime vitae?</p>
+                     <p >Mohamed zd</p>
+                     <p >CEO MZDX</p>
+                   </div>
+                 </div>
+                 <div class="swiper-slide">
+                  <div class="testi-card">
+                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores id, odio dicta, magni exercitationem ullam a doloremque, soluta nobis explicabo unde velit omnis! Architecto harum, repellat excepturi amet maxime vitae?</p>
+                     <p >Mohamed Zd</p>
+                     <p >CEO MZDX</p>
+                   </div>
+                 </div>
+               
+               </div>
+               <!-- If we need pagination -->
+               <div class="swiper-pagination md:!bottom-1"></div>
+             
+               <!-- If we need navigation buttons -->
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+             
+               <!-- If we need scrollbar -->
+               
+             </div> 
+         </div>
+         </div>
+   </section> 
+   <section id="contact" class=" bg-card dark:bg-slate-700">
+      <div class="container w-[70%]">
+         <h2 class="special-text" data-lang="contact">
+            Contact Us
+         </h2>
+         <div class="content">
+            <img src="./images/contact.svg" class="w-[50%] md:w-[100%] "alt="">
+            <div class="w-[40%] md:grid md:grid-cols-2 md:gap-6 md:w-[100%]">
+               <div class="link">
+                  <i class="uil uil-envelope-alt "></i>
+                  <a href="">bridge@contact.com</a>
+               </div>
+               <div class="link">
+                  <i class="uil uil-facebook "></i>
+                  <a href="">@Bridge Ads</a>
+               </div>
+               <div class="link">
+                  <i class="uil uil-instagram-alt "></i>
+                  <a href="">@bridge.ads</a>
+               </div>
+               <div class="link">
+                  <i class="uil uil-whatsapp-alt "></i>
+                  <a href="">+2136987789</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="bg-blue-800 py-2 text-center text-white font-bold" >
+      all copyright Bridge Ads @2022
+   </footer>
+   <script src="./src/js/main.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script>
+      const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+  
+      });
+   </script>    
+</body>
+</html>
